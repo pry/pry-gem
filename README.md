@@ -1,6 +1,10 @@
 Pry Gem
 =======
 
+[![Circle Build Status](https://circleci.com/gh/pry/pry-gem.svg?style=shield)](https://circleci.com/gh/pry/pry-gem)
+[![Gem Version](https://badge.fury.io/rb/pry-gem.svg)](http://badge.fury.io/rb/pry-gem)
+[![Downloads](https://img.shields.io/gem/dt/pry-gem.svg?style=flat)](https://rubygems.org/gems/pry-gem)
+
 A collection of commands to work with gems within Pry. Adds the following
 commands:
 
