@@ -16,7 +16,7 @@ W        W  W     W
 \'-.__,   .__.,'
  `'----'._\--'
 VVVVVVVVVVVVVVVVVVVVV
-      FAILWHALE
+    FAILWHALE
 
     match 'gem-stat'
     description 'Show the statistics of a gem (requires internet connection)'
@@ -40,7 +40,7 @@ VVVVVVVVVVVVVVVVVVVVV
 #{bright_blue(FAIL_WHALE)}
 #{bright_red('Ruby On Rails')}
 #{bright_red('Net::HTTPServiceUnavailable')}
-          FAILURE
+        FAILURE
       else
         raise Pry::CommandError, "Bad response (#{res.class})"
       end
@@ -64,7 +64,7 @@ VVVVVVVVVVVVVVVVVVVVV
 
         #{red('Dependencies')} (development)
         %{ddependencies}
-        FORMAT
+      FORMAT
       format(
         format_str,
         name: green(h.name),

@@ -110,7 +110,7 @@ jobs:
       - <<: *unit
   "jruby-9.2-jdk":
     docker:
-      - image: circleci/jruby:9.2-jdk
+      - image: circleci/jruby:9.2.0.0
     working_directory: ~/pry-gem
     steps:
       - <<: *repo_restore_cache
