@@ -1,5 +1,6 @@
 require 'pry'
 
+require 'pry-gem/version'
 require 'pry-gem/rubygem'
 require 'pry-gem/gem_cd'
 require 'pry-gem/gem_list'
