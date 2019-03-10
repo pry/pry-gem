@@ -1,0 +1,70 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/LineLength:
+  Max: 90
+
+Metrics/AbcSize:
+  Max: 20
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/HashSyntax:
+  EnforcedStyle: ruby19
+
+Naming/FileName:
+  Exclude:
+    - 'lib/pry-gem.rb'
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/SignalException:
+  EnforcedStyle: only_raise
+
+# TODO: enable this when Ruby 3.0 is out.
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
+Style/NumericPredicate:
+  Enabled: false
+
+Naming/VariableNumber:
+  Enabled: false
+
+Style/SafeNavigation:
+  Enabled: false
+
+Metrics/BlockLength:
+  CountComments: false
+  Max: 25
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+
+Performance/RegexpMatch:
+  Enabled: false
+
+Layout/IndentHeredoc:
+  Enabled: false
+
+Gemspec/OrderedDependencies:
+  Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
