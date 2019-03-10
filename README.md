@@ -22,11 +22,11 @@ Installation
 ### Bundler
 
 ```
-gem 'pry', '~> 0.12.2'
+gem 'pry-gem', '~> 1.0'
 ```
 
 ### Manual
 
 ```
-gem install pry
+gem install pry-gem
 ```
